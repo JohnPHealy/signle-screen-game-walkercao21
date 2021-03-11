@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="86f0efdf-b45f-4ae7-b682-93992e86eff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.signle-screen-game-walkercao21.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.signle-screen-game-walkercao21.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single screen game/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Single screen game/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Single screen game/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Single screen game/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Single screen game/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Single screen game/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +17,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Single screen game/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Single screen game/Assets/PlayerCombat.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Single screen game/Assets/AIpatrol.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Single screen game/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Single screen game/Assets/AIpatrol.cs" />
+      <option value="$PROJECT_DIR$/Single screen game/Assets/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pLFOdmSFkaoXu0eLy9utO980aA" />
@@ -27,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,7 +50,7 @@
       <workItem from="1614954446084" duration="992000" />
       <workItem from="1615123216217" duration="36000" />
       <workItem from="1615125558794" duration="2061000" />
-      <workItem from="1615472285368" duration="971000" />
+      <workItem from="1615472285368" duration="5193000" />
     </task>
     <servers />
   </component>
