@@ -6,31 +6,26 @@ using UnityEngine.Events;
 public class AIpatrol : MonoBehaviour
 {
     [SerializeField] private UnityEvent<float> move;
-    public Transform patrolLeft; patrolRight;
-    private float moveDir = 1f;
 
- 
-    // Start is called before the first frame update
-   
+    [SerializeField] private float moveDir = 1f;
+    private bool turn;
 
     // Update is called once per frame
     void Update()
     {
-      if(transform.position.x < patrolLeft.position.x)
+        if (turn)
         {
-        moveDir = 1;
-        
-}
- 
-       if(transform.position.x > patrolRight.position.x)
-       {
-        moveDir = -1;
+            moveDir *= -1;
+            turn = false;
         }
         move.Invoke(moveDir);
-
     }
 
-    
-
- 
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "PatrolPoint")
+        {
+            turn = true;
+        }
+    }
+}

@@ -176,11 +176,11 @@ GameObject:
   - component: {fileID: 1303909945461753975}
   - component: {fileID: 1303909945461753968}
   - component: {fileID: 1303909945461753969}
-  - component: {fileID: 1303909945461753970}
+  - component: {fileID: 9104484319106864020}
   - component: {fileID: 1303909945461753971}
   - component: {fileID: 1303909945461753964}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -260,7 +260,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   cancelJumpEnabled: 1
---- !u!114 &1303909945461753970
+--- !u!114 &9104484319106864020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,6 +287,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  moveDir: 1
 --- !u!114 &1303909945461753971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +303,7 @@ MonoBehaviour:
   playerCheck: {fileID: 4799650516302937119, guid: e571ded23cc6d0d4aab2b43061562dc2, type: 3}
   playerLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!114 &1303909945461753964
 MonoBehaviour:
   m_ObjectHideFlags: 0
