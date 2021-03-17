@@ -8,14 +8,18 @@ public class GameManager : MonoBehaviour
   private Vector3 startPos;
 
 
+
   private void Start()
   {
     startPos = player.transform.position;
+
   }
 
   public void RespawnPlayer()
   {
     player.transform.position = startPos;
+
   }
-  
 }
+ 
+
